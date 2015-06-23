@@ -1,0 +1,555 @@
+desc: (none)
+cmd: ./primes 1000000
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=9355569
+mem_heap_B=4
+mem_heap_extra_B=20
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=13856652
+mem_heap_B=12
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=13859405
+mem_heap_B=12
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=detailed
+n1: 12 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 12 0x401824: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/meres/workspace/primes/src/primes)
+  n1: 12 0x4016CF: __gnu_cxx::__alloc_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/meres/workspace/primes/src/primes)
+   n1: 12 0x4014E2: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/meres/workspace/primes/src/primes)
+    n1: 12 0x400FDD: std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/meres/workspace/primes/src/primes)
+     n1: 12 0x400DC2: std::vector<int, std::allocator<int> >::push_back(int const&) (in /home/meres/workspace/primes/src/primes)
+      n1: 12 0x400BDD: number_of_primes(int) (in /home/meres/workspace/primes/src/primes)
+       n0: 12 0x400CA0: main (in /home/meres/workspace/primes/src/primes)
+#-----------
+snapshot=4
+#-----------
+time=13859405
+mem_heap_B=8
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=16859869
+mem_heap_B=24
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=16860579
+mem_heap_B=16
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=19946874
+mem_heap_B=48
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=19947583
+mem_heap_B=48
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n1: 48 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 48 0x401824: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/meres/workspace/primes/src/primes)
+  n1: 48 0x4016CF: __gnu_cxx::__alloc_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/meres/workspace/primes/src/primes)
+   n1: 48 0x4014E2: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/meres/workspace/primes/src/primes)
+    n1: 48 0x400FDD: std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/meres/workspace/primes/src/primes)
+     n1: 48 0x400DC2: std::vector<int, std::allocator<int> >::push_back(int const&) (in /home/meres/workspace/primes/src/primes)
+      n1: 48 0x400BDD: number_of_primes(int) (in /home/meres/workspace/primes/src/primes)
+       n0: 48 0x400CA0: main (in /home/meres/workspace/primes/src/primes)
+#-----------
+snapshot=9
+#-----------
+time=19947583
+mem_heap_B=32
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=22461945
+mem_heap_B=96
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=22462656
+mem_heap_B=96
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n1: 96 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 96 0x401824: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/meres/workspace/primes/src/primes)
+  n1: 96 0x4016CF: __gnu_cxx::__alloc_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/meres/workspace/primes/src/primes)
+   n1: 96 0x4014E2: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/meres/workspace/primes/src/primes)
+    n1: 96 0x400FDD: std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/meres/workspace/primes/src/primes)
+     n1: 96 0x400DC2: std::vector<int, std::allocator<int> >::push_back(int const&) (in /home/meres/workspace/primes/src/primes)
+      n1: 96 0x400BDD: number_of_primes(int) (in /home/meres/workspace/primes/src/primes)
+       n0: 96 0x400CA0: main (in /home/meres/workspace/primes/src/primes)
+#-----------
+snapshot=12
+#-----------
+time=22462656
+mem_heap_B=64
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=24489297
+mem_heap_B=192
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=24490012
+mem_heap_B=192
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n1: 192 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 192 0x401824: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/meres/workspace/primes/src/primes)
+  n1: 192 0x4016CF: __gnu_cxx::__alloc_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/meres/workspace/primes/src/primes)
+   n1: 192 0x4014E2: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/meres/workspace/primes/src/primes)
+    n1: 192 0x400FDD: std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/meres/workspace/primes/src/primes)
+     n1: 192 0x400DC2: std::vector<int, std::allocator<int> >::push_back(int const&) (in /home/meres/workspace/primes/src/primes)
+      n1: 192 0x400BDD: number_of_primes(int) (in /home/meres/workspace/primes/src/primes)
+       n0: 192 0x400CA0: main (in /home/meres/workspace/primes/src/primes)
+#-----------
+snapshot=15
+#-----------
+time=24490012
+mem_heap_B=128
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=26155434
+mem_heap_B=384
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=26156157
+mem_heap_B=384
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n1: 384 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 384 0x401824: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/meres/workspace/primes/src/primes)
+  n1: 384 0x4016CF: __gnu_cxx::__alloc_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/meres/workspace/primes/src/primes)
+   n1: 384 0x4014E2: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/meres/workspace/primes/src/primes)
+    n1: 384 0x400FDD: std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/meres/workspace/primes/src/primes)
+     n1: 384 0x400DC2: std::vector<int, std::allocator<int> >::push_back(int const&) (in /home/meres/workspace/primes/src/primes)
+      n1: 384 0x400BDD: number_of_primes(int) (in /home/meres/workspace/primes/src/primes)
+       n0: 384 0x400CA0: main (in /home/meres/workspace/primes/src/primes)
+#-----------
+snapshot=18
+#-----------
+time=26156157
+mem_heap_B=256
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=27546888
+mem_heap_B=768
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=27547656
+mem_heap_B=768
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n1: 768 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 768 0x401824: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/meres/workspace/primes/src/primes)
+  n1: 768 0x4016CF: __gnu_cxx::__alloc_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/meres/workspace/primes/src/primes)
+   n1: 768 0x4014E2: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/meres/workspace/primes/src/primes)
+    n1: 768 0x400FDD: std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/meres/workspace/primes/src/primes)
+     n1: 768 0x400DC2: std::vector<int, std::allocator<int> >::push_back(int const&) (in /home/meres/workspace/primes/src/primes)
+      n1: 768 0x400BDD: number_of_primes(int) (in /home/meres/workspace/primes/src/primes)
+       n0: 768 0x400CA0: main (in /home/meres/workspace/primes/src/primes)
+#-----------
+snapshot=21
+#-----------
+time=27547656
+mem_heap_B=512
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=28743236
+mem_heap_B=1536
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=28744044
+mem_heap_B=1536
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n1: 1536 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1536 0x401824: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/meres/workspace/primes/src/primes)
+  n1: 1536 0x4016CF: __gnu_cxx::__alloc_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/meres/workspace/primes/src/primes)
+   n1: 1536 0x4014E2: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/meres/workspace/primes/src/primes)
+    n1: 1536 0x400FDD: std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/meres/workspace/primes/src/primes)
+     n1: 1536 0x400DC2: std::vector<int, std::allocator<int> >::push_back(int const&) (in /home/meres/workspace/primes/src/primes)
+      n1: 1536 0x400BDD: number_of_primes(int) (in /home/meres/workspace/primes/src/primes)
+       n0: 1536 0x400CA0: main (in /home/meres/workspace/primes/src/primes)
+#-----------
+snapshot=24
+#-----------
+time=28744044
+mem_heap_B=1024
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=29801055
+mem_heap_B=3072
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=29801943
+mem_heap_B=3072
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n1: 3072 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3072 0x401824: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/meres/workspace/primes/src/primes)
+  n1: 3072 0x4016CF: __gnu_cxx::__alloc_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/meres/workspace/primes/src/primes)
+   n1: 3072 0x4014E2: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/meres/workspace/primes/src/primes)
+    n1: 3072 0x400FDD: std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/meres/workspace/primes/src/primes)
+     n1: 3072 0x400DC2: std::vector<int, std::allocator<int> >::push_back(int const&) (in /home/meres/workspace/primes/src/primes)
+      n1: 3072 0x400BDD: number_of_primes(int) (in /home/meres/workspace/primes/src/primes)
+       n0: 3072 0x400CA0: main (in /home/meres/workspace/primes/src/primes)
+#-----------
+snapshot=27
+#-----------
+time=29801943
+mem_heap_B=2048
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=30762671
+mem_heap_B=6144
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=30763719
+mem_heap_B=6144
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n1: 6144 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 6144 0x401824: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/meres/workspace/primes/src/primes)
+  n1: 6144 0x4016CF: __gnu_cxx::__alloc_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/meres/workspace/primes/src/primes)
+   n1: 6144 0x4014E2: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/meres/workspace/primes/src/primes)
+    n1: 6144 0x400FDD: std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/meres/workspace/primes/src/primes)
+     n1: 6144 0x400DC2: std::vector<int, std::allocator<int> >::push_back(int const&) (in /home/meres/workspace/primes/src/primes)
+      n1: 6144 0x400BDD: number_of_primes(int) (in /home/meres/workspace/primes/src/primes)
+       n0: 6144 0x400CA0: main (in /home/meres/workspace/primes/src/primes)
+#-----------
+snapshot=30
+#-----------
+time=30763719
+mem_heap_B=4096
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=31675746
+mem_heap_B=12288
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=31677114
+mem_heap_B=12288
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n1: 12288 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 12288 0x401824: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/meres/workspace/primes/src/primes)
+  n1: 12288 0x4016CF: __gnu_cxx::__alloc_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/meres/workspace/primes/src/primes)
+   n1: 12288 0x4014E2: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/meres/workspace/primes/src/primes)
+    n1: 12288 0x400FDD: std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/meres/workspace/primes/src/primes)
+     n1: 12288 0x400DC2: std::vector<int, std::allocator<int> >::push_back(int const&) (in /home/meres/workspace/primes/src/primes)
+      n1: 12288 0x400BDD: number_of_primes(int) (in /home/meres/workspace/primes/src/primes)
+       n0: 12288 0x400CA0: main (in /home/meres/workspace/primes/src/primes)
+#-----------
+snapshot=33
+#-----------
+time=31677114
+mem_heap_B=8192
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=32607083
+mem_heap_B=24576
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=32609091
+mem_heap_B=24576
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n1: 24576 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 24576 0x401824: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/meres/workspace/primes/src/primes)
+  n1: 24576 0x4016CF: __gnu_cxx::__alloc_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/meres/workspace/primes/src/primes)
+   n1: 24576 0x4014E2: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/meres/workspace/primes/src/primes)
+    n1: 24576 0x400FDD: std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/meres/workspace/primes/src/primes)
+     n1: 24576 0x400DC2: std::vector<int, std::allocator<int> >::push_back(int const&) (in /home/meres/workspace/primes/src/primes)
+      n1: 24576 0x400BDD: number_of_primes(int) (in /home/meres/workspace/primes/src/primes)
+       n0: 24576 0x400CA0: main (in /home/meres/workspace/primes/src/primes)
+#-----------
+snapshot=36
+#-----------
+time=32609091
+mem_heap_B=16384
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=33675063
+mem_heap_B=49152
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=33678351
+mem_heap_B=49152
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n1: 49152 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 49152 0x401824: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/meres/workspace/primes/src/primes)
+  n1: 49152 0x4016CF: __gnu_cxx::__alloc_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/meres/workspace/primes/src/primes)
+   n1: 49152 0x4014E2: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/meres/workspace/primes/src/primes)
+    n1: 49152 0x400FDD: std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/meres/workspace/primes/src/primes)
+     n1: 49152 0x400DC2: std::vector<int, std::allocator<int> >::push_back(int const&) (in /home/meres/workspace/primes/src/primes)
+      n1: 49152 0x400BDD: number_of_primes(int) (in /home/meres/workspace/primes/src/primes)
+       n0: 49152 0x400CA0: main (in /home/meres/workspace/primes/src/primes)
+#-----------
+snapshot=39
+#-----------
+time=33678351
+mem_heap_B=32768
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=35108912
+mem_heap_B=98304
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=35114760
+mem_heap_B=98304
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n1: 98304 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 98304 0x401824: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/meres/workspace/primes/src/primes)
+  n1: 98304 0x4016CF: __gnu_cxx::__alloc_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/meres/workspace/primes/src/primes)
+   n1: 98304 0x4014E2: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/meres/workspace/primes/src/primes)
+    n1: 98304 0x400FDD: std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/meres/workspace/primes/src/primes)
+     n1: 98304 0x400DC2: std::vector<int, std::allocator<int> >::push_back(int const&) (in /home/meres/workspace/primes/src/primes)
+      n1: 98304 0x400BDD: number_of_primes(int) (in /home/meres/workspace/primes/src/primes)
+       n0: 98304 0x400CA0: main (in /home/meres/workspace/primes/src/primes)
+#-----------
+snapshot=42
+#-----------
+time=35114760
+mem_heap_B=65536
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=37370109
+mem_heap_B=196608
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=37381077
+mem_heap_B=196608
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n1: 196608 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 196608 0x401824: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/meres/workspace/primes/src/primes)
+  n1: 196608 0x4016CF: __gnu_cxx::__alloc_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/meres/workspace/primes/src/primes)
+   n1: 196608 0x4014E2: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/meres/workspace/primes/src/primes)
+    n1: 196608 0x400FDD: std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/meres/workspace/primes/src/primes)
+     n1: 196608 0x400DC2: std::vector<int, std::allocator<int> >::push_back(int const&) (in /home/meres/workspace/primes/src/primes)
+      n1: 196608 0x400BDD: number_of_primes(int) (in /home/meres/workspace/primes/src/primes)
+       n0: 196608 0x400CA0: main (in /home/meres/workspace/primes/src/primes)
+#-----------
+snapshot=45
+#-----------
+time=37381077
+mem_heap_B=131072
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=41417234
+mem_heap_B=393216
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=41442547
+mem_heap_B=393216
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n1: 393216 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 393216 0x401824: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/meres/workspace/primes/src/primes)
+  n1: 393216 0x4016CF: __gnu_cxx::__alloc_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/meres/workspace/primes/src/primes)
+   n1: 393216 0x4014E2: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/meres/workspace/primes/src/primes)
+    n1: 393216 0x400FDD: std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/meres/workspace/primes/src/primes)
+     n1: 393216 0x400DC2: std::vector<int, std::allocator<int> >::push_back(int const&) (in /home/meres/workspace/primes/src/primes)
+      n1: 393216 0x400BDD: number_of_primes(int) (in /home/meres/workspace/primes/src/primes)
+       n0: 393216 0x400CA0: main (in /home/meres/workspace/primes/src/primes)
+#-----------
+snapshot=48
+#-----------
+time=41442547
+mem_heap_B=262144
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=49238581
+mem_heap_B=786432
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=49288470
+mem_heap_B=786432
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=peak
+n1: 786432 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 786432 0x401824: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/meres/workspace/primes/src/primes)
+  n1: 786432 0x4016CF: __gnu_cxx::__alloc_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/meres/workspace/primes/src/primes)
+   n1: 786432 0x4014E2: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/meres/workspace/primes/src/primes)
+    n1: 786432 0x400FDD: std::vector<int, std::allocator<int> >::_M_insert_aux(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&) (in /home/meres/workspace/primes/src/primes)
+     n1: 786432 0x400DC2: std::vector<int, std::allocator<int> >::push_back(int const&) (in /home/meres/workspace/primes/src/primes)
+      n1: 786432 0x400BDD: number_of_primes(int) (in /home/meres/workspace/primes/src/primes)
+       n0: 786432 0x400CA0: main (in /home/meres/workspace/primes/src/primes)
+#-----------
+snapshot=51
+#-----------
+time=49288470
+mem_heap_B=524288
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=52418339
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
