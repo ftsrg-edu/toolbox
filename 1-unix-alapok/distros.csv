@@ -1,0 +1,12 @@
+Distribution,Initial release year,Current stable version,Release date,Forked from,Target audience
+Debian,1993,8,2015-04-25,–,"general, server, desktop"
+Slackware,1993,14.1,2013-11-07,Softlanding Linux System (SLS),general
+Linux Mint,2006,17.1,2014-11-29,"Debian, Ubuntu",desktop
+Arch Linux,2002,?,?,–,"simple, customisers"
+SUSE Linux,1994,?,?,"Slackware, Jurix","workstation, server"
+Gentoo Linux,2002,?,?,–,general
+Fedora,2003,22,2015-05-26,–,general
+CentOS,2003,7,2014-07-07,Red Hat Enterprise Linux (RHEL),"server, workstation"
+Red Hat Linux,1995,?,?,–,"server, workstation"
+Ubuntu,2004,15.04,2015-04-23,Debian,"general, server, desktop"
+Scientific Linux,2004,6.5,?,"Red Hat Linux, Red Hat Enterprise Linux (RHEL)","server, workstation"
