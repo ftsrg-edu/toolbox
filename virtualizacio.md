@@ -1,4 +1,6 @@
-# Virtualizáció
+# Függelék
+
+## Virtualizáció
 
 Virtuális gép készítésére többféle platform létezik (VMware, Oracle VirtualBox, Xen).
 
