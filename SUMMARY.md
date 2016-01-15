@@ -6,7 +6,6 @@
 * [Unix-eszközök](unix-eszkozok.md)
 * [Bash](bash.md)
 * [Bash példa](bash-pelda.md)
-* [Markdown](markdown.md)
 * [Integrált fejlesztőkörnyezetek](ide.md)
 * [SSH](ssh.md)
 * [Függelék](fuggelek.md)
