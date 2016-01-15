@@ -1,5 +1,6 @@
 # Summary
 
+* [Introduction](README.md)
 * [Bevezető](bevezeto.md)
 * [Beosztás](beosztas.md)
 * [Unix-eszközök](unix-eszkozok.md)
@@ -7,7 +8,7 @@
 * [Bash példa](bash-pelda.md)
 * [Jegyzetek](jegyzetek.md)
 * [Markdown](markdown.md)
+* [Integrált fejlesztőkörnyezetek](ide.md)
 * [SSH](ssh.md)
 * [Virtualizáció](virtualizacio.md)
-* [Integrált fejlesztőkörnyezetek](ide.md)
- 
+
