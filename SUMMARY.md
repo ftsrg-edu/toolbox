@@ -4,7 +4,7 @@
 * [Bevezető](bevezeto.md)
 * [Ütemezés](utemezes.md)
 * [Unix-eszközök](unix-eszkozok.md)
-   * Unix-feladatok
+* Unix-feladatok
 * [Bash](bash.md)
 * [Bash példa](bash-pelda.md)
 * [Integrált fejlesztőkörnyezetek](ide.md)
