@@ -11,5 +11,5 @@
 * [SSH](ssh.md)
 * [Java](java.md)
 * [Függelék](fuggelek.md)
-* Ötletek
+* [Ötletek](otletek.md)
 
