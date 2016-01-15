@@ -9,5 +9,6 @@
 * [Bash példa](bash-pelda.md)
 * [Integrált fejlesztőkörnyezetek](ide.md)
 * [SSH](ssh.md)
+   * Java
 * [Függelék](fuggelek.md)
 
