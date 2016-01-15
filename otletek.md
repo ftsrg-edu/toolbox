@@ -1,2 +1,4 @@
 # Ötletek
 
+* ASCIIquarium telepítése
+* 
