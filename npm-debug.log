@@ -1,0 +1,69 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'gitbook-editor' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'gitbook-editor', null ]
+5 verbose cache add name=undefined spec="gitbook-editor" args=["gitbook-editor",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'gitbook-editor',
+6 verbose parsed url   path: 'gitbook-editor',
+6 verbose parsed url   href: 'gitbook-editor' }
+7 silly lockFile 7ac891ce-gitbook-editor gitbook-editor
+8 verbose lock gitbook-editor /home/szarnyasg/.npm/7ac891ce-gitbook-editor.lock
+9 silly lockFile 7ac891ce-gitbook-editor gitbook-editor
+10 silly lockFile 7ac891ce-gitbook-editor gitbook-editor
+11 verbose addNamed [ 'gitbook-editor', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile c702c34b-gitbook-editor gitbook-editor@
+14 verbose lock gitbook-editor@ /home/szarnyasg/.npm/c702c34b-gitbook-editor.lock
+15 silly addNameRange { name: 'gitbook-editor', range: '*', hasData: false }
+16 verbose url raw gitbook-editor
+17 verbose url resolving [ 'https://registry.npmjs.org/', './gitbook-editor' ]
+18 verbose url resolved https://registry.npmjs.org/gitbook-editor
+19 info trying registry request attempt 1 at 18:47:52
+20 http GET https://registry.npmjs.org/gitbook-editor
+21 http 404 https://registry.npmjs.org/gitbook-editor
+22 silly registry.get cb [ 404,
+22 silly registry.get   { 'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=0',
+22 silly registry.get     'content-length': '2',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Fri, 15 Jan 2016 17:47:52 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-fra1231-FRA',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1452880072.113784,VS0,VE174' } ]
+23 silly addNameRange number 2 { name: 'gitbook-editor', range: '*', hasData: true }
+24 silly addNameRange versions [ undefined, [] ]
+25 error TypeError: Cannot read property 'latest' of undefined
+25 error     at next (/usr/share/npm/lib/cache.js:687:35)
+25 error     at /usr/share/npm/lib/cache.js:675:5
+25 error     at saved (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:142:7)
+25 error     at /usr/lib/nodejs/graceful-fs/polyfills.js:133:7
+25 error     at Object.oncomplete (fs.js:107:15)
+26 error If you need help, you may report this log at:
+26 error     <http://github.com/isaacs/npm/issues>
+26 error or email it to:
+26 error     <npm-@googlegroups.com>
+27 error System Linux 3.19.0-32-generic
+28 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "gitbook-editor"
+29 error cwd /home/szarnyasg/git/szakkor
+30 error node -v v0.10.25
+31 error npm -v 1.3.10
+32 error type non_object_property_load
+33 verbose exit [ 1, true ]

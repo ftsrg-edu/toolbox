@@ -1,1 +1,3 @@
-# szakkor
+# Toolbox
+
+Informatikai szerszámosláda.
