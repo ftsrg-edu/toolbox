@@ -9,5 +9,5 @@
 * [Markdown](markdown.md)
 * [Integrált fejlesztőkörnyezetek](ide.md)
 * [SSH](ssh.md)
-* [Virtualizáció](virtualizacio.md)
+* [Függelék](fuggelek.md)
 
