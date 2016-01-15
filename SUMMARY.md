@@ -2,7 +2,7 @@
 
 * [Bevezető](bevezeto.md)
 * [Beosztás](beosztas.md)
-* [Unix-eszközök](unix-eszközök.md)
+* [Unix-eszközök](unix-eszkozok.md)
 * [](.md)
 * [](.md)
 * [](.md)
