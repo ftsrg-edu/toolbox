@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Bevezető](bevezeto.md)
-* [Beosztás](beosztas.md)
+* [Ütemezés](utemezes.md)
 * [Unix-eszközök](unix-eszkozok.md)
 * [Bash](bash.md)
 * [Bash példa](bash-pelda.md)
