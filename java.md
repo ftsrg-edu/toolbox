@@ -8,4 +8,4 @@ Eclipse plug-inek fejlesztése
 
 EMF
 
-
+Maven-Tycho
