@@ -13,3 +13,4 @@ A szakkör célja, hogy bemutassa azokat az eszközöket, amelyeket mi is haszn�
 A szoftverfejlesztők szerszámosládásjában szereplő szoftverek többsége nyílt forráskódú, azaz a szoftver kódja szabadon elérhető az interneten. A nyílt forráskódú szoftverek számos előnnyel rendelkeznek: a bennük található hibák könnyebben jelenthetők és javíthatók, könnyű csatlakozni a szoftver fejlesztéséhez, a szoftver az eltérő felhasználói igényeknek kielégítéséhez többféle különböző irányba is fejlődhet.
 
 > **Info:** Eric S. Raymond, [The Cathedral and the Bazaar](http://www.catb.org/esr/writings/cathedral-bazaar/cathedral-bazaar/index.html).
+ 
