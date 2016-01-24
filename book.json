@@ -1,0 +1,13 @@
+{
+    "plugins": ["richquotes"],
+    "pluginsConfig":
+    {
+        "richquotes":
+        {
+            "star": {
+                "alert": "warning",
+                "picto": "fa-star"
+            }
+        }
+    }
+}
