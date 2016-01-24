@@ -1,10 +1,27 @@
 # Ütemezés
 
-sáv     | 1. nap                               | 2. nap                               | 3. nap                               |
-------- | ------------------------------------ | ------------------------------------ | ------------------------------------ |
-1. blokk  | Motiváció, prímszámos példa (G++)    | Java          | Eclipse CDT                          |
-2. óra  | Unix alapok, shell szkript alapok    | SVN, Git                             | Debugger, modultesztelés             |
-3. óra  | Reguláris kifejezések, GCC           | Git                                  | Libraryk, Boost/tesztelés CDT-ben    |
-otthoni | játékok fordítása                    | GitHubon projekt összerakása?        |                                      |
+Otthoni felkészüléssel és főleg *problem-based learning* technikával.
 
-Az otthoni feladat egy 1-2 óra alatt elkészíthető munka.
+1. Linux alapok és toolchainek
+  * Prímszámos példa
+  * Unix alapok, shell szkript alapok
+  * Reguláris kifejezések
+  * Egyszerű alkalmazások "belövése"
+  * Git alapok
+  * `g++`, `gcc`, `gdb`, `make`, `sed`, `grep`
+  * C fejlesztőkörnyezet: Eclipse CDT
+  * EGit
+  * C++ libraryk, unit tesztelés (Boots)
+2. nap
+  * Java, JVM alapok
+  * `java`, `javac`, `jdb`, `mvn`
+  * Java fejlesztőkönyezet: Eclipse JDT
+  * Eclipse plug-inek fejlesztése
+  * target platform
+  * EMF alapok
+3. nap
+  * EMF modellek programozott betöltése és mentése
+  * Összetett EMF példa (ER diagram)
+  * Petri-háló metamodell
+  * Validáció: EMF-IncQuery
+  * Xtext: szöveges nyelvtan készítése
