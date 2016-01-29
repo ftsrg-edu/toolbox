@@ -1,5 +1,5 @@
 # Toolbox
 
-Informatikai szerszámosláda.
+A szoftvermérnöki szerszámosládája.
 
 Forrás: https://github.com/FTSRG/toolbox
