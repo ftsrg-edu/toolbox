@@ -11,7 +11,7 @@ Otthoni felkészüléssel és főleg *problem-based learning* technikával.
   * `g++`, `gcc`, `gdb`, `make`, `sed`, `grep`
   * C fejlesztőkörnyezet: Eclipse CDT
   * EGit
-  * C++ libraryk, unit tesztelés (Boots)
+  * C++ libraryk, unit tesztelés (Boost)
 2. nap
   * Java, JVM alapok
   * `java`, `javac`, `jdb`, `mvn`
