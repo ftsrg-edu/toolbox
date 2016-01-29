@@ -206,4 +206,4 @@ A csomagkezelővel telepíthetünk függvénykönyvtárakat (_library_) is. A f�
 
 **Project Euler:** érdekes algoritmuselméleti problémákat sorol fel a [Project Euler](https://projecteuler.net/) oldala. Természetesen nem kell -- rövid idő alatt nem is lehet -- minden feladatot megoldani. Ehelyett lehet vele gyakorolni az algoritmizálást, állásinterjúra készülni vagy problémákat keresni egy új programnyelv alapjainak megtanulásához.
 
-**Magyar Linux:** mi történne, ha a Linuxban szereplő angol kifejezéseket tükörfordítással nagyarra fordítanánk? Bemutatja ez az 1999-es [Impulzus cikk](http://w3.impulzus.com/archivum/cikk/46/).
+**Magyar Linux:** mi történne, ha a Linuxban szereplő angol kifejezéseket tükörfordítással magyarra fordítanánk? Bemutatja ez az 1999-es [Impulzus cikk](http://w3.impulzus.com/archivum/cikk/46/).
