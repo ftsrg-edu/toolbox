@@ -10,7 +10,7 @@
 * [Integrált fejlesztőkörnyezetek](ide.md)
 * [SSH](ssh.md)
 * [Java](java.md)
+* [EMF](emf.md)
 * [Függelék](fuggelek.md)
-   * EMF
 * [Ötletek](otletek.md)
 
