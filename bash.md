@@ -97,7 +97,7 @@ CSV fájlok. Egyszerűségük ellenére a CSV állományokat elterjedten alkalma
 A Bash támogatja a _csővezetékek és szűrők_ (pipes and filters) architekturális modell alkalmazását. Az egyes alkalmazásokat különböző szűréseket és transzformációkat végeznek, az alkalmazásokat pedig csővezetékek kötik össze. A vezetékeket a `|` (pipe) karakterrel jelöljük. Például a számjegyet tartalmazó fájlneveket az alábbi paranccsal írathatjuk ki:
 
 ```bash
-$ls | grep "[0-9]"
+$ ls | grep "[0-9]"
 ```
 
 A `/proc/cpuinfo` fájlban található sorok számát az alábbi paranccsal kaphatjuk meg:
