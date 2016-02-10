@@ -2,4 +2,5 @@
 
 A szoftvermérnök szerszámosládája.
 
-Forrás: https://github.com/FTSRG/toolbox
+* GitBook könyv: <https://www.gitbook.com/book/ftsrg/toolbox>
+* Forrás: <https://github.com/FTSRG/toolbox>
