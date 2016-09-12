@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Ütemezés](utemezes.md)
-* [Unix eszközök](unix-eszkozok.md)
+* [Unix-alapú rendszerek története, Unix filozófia](unix-eszkozok.md)
 * [Unix feladatok: alkalmazás fordítása](unix-feladatok.md)
 * [Linux fájlrendszer, jogosultságok](bash.md)
 * [Bash példa: cross-platform problémák](bash-pelda.md)

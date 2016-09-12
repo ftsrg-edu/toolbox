@@ -79,10 +79,7 @@ A Bash nem csak futtatókörnyezetet, hanem egy _szkriptnyelvet_ \(script langua
 
 A Windows-zal ellentétben Bash alatt a keresett elérési útvonalban _nem szerepel az aktuális könyvtár_, csak a `PATH` környezeti változó.
 
-**Megjegyzés.** Törekedjünk arra, hogy használjuk a `TAB` billentyűvel az automatikus
-parancs- és fájlnév kiegészítést. Amennyiben több lehetőség
-adódik a kiegészítésre, akkor a `TAB` kétszeri lenyomása után ezekről listát kapunk. A paramétereknél is érdemes a `TAB` billentyűt használni, mert különböző típusú
-elemek kiegészítését is tudja a Bash shell.
+**Megjegyzés.** Törekedjünk arra, hogy használjuk a `TAB` billentyűvel az automatikus parancs- és fájlnév kiegészítést. Amennyiben több lehetőség adódik a kiegészítésre, akkor a `TAB` kétszeri lenyomása után ezekről listát kapunk. A paramétereknél is érdemes a `TAB` billentyűt használni, mert különböző típusú elemek kiegészítését is tudja a Bash shell.
 
 ### Alapvető parancsok
 
