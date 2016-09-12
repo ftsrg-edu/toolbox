@@ -10,5 +10,5 @@ EMF
 
 Target platform
 
-Maven-Tycho
+
 
