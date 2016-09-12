@@ -9,8 +9,8 @@ A prímszámos alkalmazásunkhoz egy kollégánk készített egy Bash szkriptet,
 Töltsük le és futtassuk a szkriptet.
 
 ```bash
-$ wget http://static.inf.mit.bme.hu/~szarnyasg/szkript.zip
-$ unzip szkript.zip
+$ wget http://docs.inf.mit.bme.hu/toolbox/count.zip
+$ unzip count.zip
 $ ./count.sh
 bash: ./count.sh: Permission denied
 ```
@@ -32,7 +32,7 @@ $ ./count.sh
 bash: ./count.sh: /bin/bash^M: bad interpreter: No such file or directory
 ```
 
-A rendszer elkezdi futtatni, de ismét hibaüzenetet kaptunk. Korábban említettük, hogy a `^M` a *carriage return* karakterhez tartozik. A `file` eszköz használatával nézzünk rá a fájl adataira.
+A rendszer elkezdi futtatni, de ismét hibaüzenetet kaptunk. Korábban említettük, hogy a `^M` a _carriage return_ karakterhez tartozik. A `file` eszköz használatával nézzünk rá a fájl adataira.
 
 ```bash
 $ file count.sh
@@ -96,7 +96,7 @@ Míg Windows alatt a PATH része az aktuális könyvtár, Linuxon nem az -- jav�
 $ nano count.sh
 ```
 
-A `nano` szövegszerkesztőből `^X` karakterrel (`Ctrl`+`X` billentyűkombináció) léphetünk ki. Kilépés nélkül is elmenthetjük a munkánkat a `^O` karakterrel.
+A `nano` szövegszerkesztőből `^X` karakterrel \(`Ctrl`+`X` billentyűkombináció\) léphetünk ki. Kilépés nélkül is elmenthetjük a munkánkat a `^O` karakterrel.
 
 ```
 $ ./count.sh
@@ -130,3 +130,4 @@ There are 25 primes from 1 to 100.
 Calculating... // Done.
 There are 168 primes from 1 to 1000.
 ```
+
