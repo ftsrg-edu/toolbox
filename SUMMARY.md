@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [Bevezető](bevezeto.md)
 * [Ütemezés](utemezes.md)
 * [Unix eszközök](unix-eszkozok.md)
 * [Unix feladatok](unix-feladatok.md)
