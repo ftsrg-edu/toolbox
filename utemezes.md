@@ -1,4 +1,4 @@
-# Tematika
+# Tematika \(2015. június\)
 
 1. Linux alapok és toolchainek
 
