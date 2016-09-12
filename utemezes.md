@@ -1,6 +1,6 @@
-# Ütemezés
+# Tematika
 
-Otthoni felkészüléssel és főleg *problem-based learning* technikával.
+Otthoni felkészüléssel és főleg _problem-based learning_ technikával.
 
 1. Linux alapok és toolchainek
   * Prímszámos példa
@@ -11,7 +11,8 @@ Otthoni felkészüléssel és főleg *problem-based learning* technikával.
   * `g++`, `gcc`, `gdb`, `make`, `sed`, `grep`
   * C fejlesztőkörnyezet: Eclipse CDT
   * EGit
-  * C++ libraryk, unit tesztelés (Boost)
+  * C++ libraryk, unit tesztelés \(Boost\)
+
 2. nap
   * Java, JVM alapok
   * `java`, `javac`, `jdb`, `mvn`
@@ -19,9 +20,12 @@ Otthoni felkészüléssel és főleg *problem-based learning* technikával.
   * Eclipse plug-inek fejlesztése
   * target platform
   * EMF alapok
+
 3. nap
   * EMF modellek programozott betöltése és mentése
-  * Összetett EMF példa (ER diagram)
+  * Összetett EMF példa \(ER diagram\)
   * Petri-háló metamodell
   * Validáció: EMF-IncQuery
   * Xtext: szöveges nyelvtan készítése
+
+
