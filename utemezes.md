@@ -1,8 +1,7 @@
 # Tematika
 
-Otthoni felkészüléssel és főleg _problem-based learning_ technikával.
-
 1. Linux alapok és toolchainek
+
   * Prímszámos példa
   * Unix alapok, shell szkript alapok
   * Reguláris kifejezések
@@ -14,6 +13,7 @@ Otthoni felkészüléssel és főleg _problem-based learning_ technikával.
   * C++ libraryk, unit tesztelés \(Boost\)
 
 2. nap
+
   * Java, JVM alapok
   * `java`, `javac`, `jdb`, `mvn`
   * Java fejlesztőkönyezet: Eclipse JDT
@@ -22,6 +22,7 @@ Otthoni felkészüléssel és főleg _problem-based learning_ technikával.
   * EMF alapok
 
 3. nap
+
   * EMF modellek programozott betöltése és mentése
   * Összetett EMF példa \(ER diagram\)
   * Petri-háló metamodell
