@@ -25,7 +25,7 @@ A `/dev/null` könyvtárba irányított adatfolyammal semmi sem történik -- ne
 
 ### Jogosultságok
 
-A Linux fájlrendszerében kezdetektől fogva kiemelt szerepet kapott az, hogy az egyes állományok hozzáférését precízen szabályozni tudjuk (access control). Minden fájlhoz tartozik egy _tulajdonos felhasználó_ (owner) és _tulajdonos csoport_ (group). Beállítható, hogy az owner, a group és a többi felhasználó milyen jogosultságokkal rendelkezzenek: tudják-e azt _olvasni_ (read), _írni_ (write) és azt _futtatni_ (execute). Az `ls -l` parancsnál ezeket a jogosultságokat `rwxrwxrwx` formátumban láthatjuk.
+A Linux fájlrendszerében kezdetektől fogva kiemelt szerepet kapott az, hogy az egyes állományok hozzáférését precízen szabályozni tudjuk \(access control\). Minden fájlhoz tartozik egy _tulajdonos felhasználó_ \(owner\) és _tulajdonos csoport_ \(group\). Beállítható, hogy az owner, a group és a többi felhasználó milyen jogosultságokkal rendelkezzenek: tudják-e azt _olvasni_ \(read\), _írni_ \(write\) és azt _futtatni_ \(execute\). Az `ls -l` parancsnál ezeket a jogosultságokat `rwxrwxrwx` formátumban láthatjuk.
 
 Egy fájl futtathatóvá tételéhez használjuk az alábbi parancsot:
 
@@ -35,7 +35,7 @@ chmod +x fájlnév
 
 ### Rendszergazdai jogosultságok
 
-A `sudo` (_superuser do_) paranccsal ...
+A `sudo` \(_superuser do_\) paranccsal ...
 
 **Mikor van a leggyakrabban szükség rendszergazdai jogosultságokra?** A legtöbb fejlesztési feladat elvégezhető rendszergazdai jogosultságok nélkül. Általában a következő feladatoknál van szükségünk rendszergazdai jogosultságokra:
 
@@ -45,37 +45,37 @@ A `sudo` (_superuser do_) paranccsal ...
 * Jogosultságok beállítása, pl. `sudo chmod 644 *.html`.
 * Tulajdonos beállítása, pl. `sudo chown -R myuser:myuser /var/lib/myapp/`.
 
-Az `su` (_switch user_) paranccsal felhasználót válthatunk. Az `su -` parancs alapértelmezés szerint a `root` felhasználóra vált. Ha ismerjük a jelszavát, akkor rendszergazdai jogosultságokhoz juthatunk. Általában nincs szükség az `su` használatára. Ubuntu rendszeren alapértelmezés szerint a `root` jelszava nincs beállítva, így nem is tudunk belépni vele.
+Az `su` \(_switch user_\) paranccsal felhasználót válthatunk. Az `su -` parancs alapértelmezés szerint a `root` felhasználóra vált. Ha ismerjük a jelszavát, akkor rendszergazdai jogosultságokhoz juthatunk. Általában nincs szükség az `su` használatára. Ubuntu rendszeren alapértelmezés szerint a `root` jelszava nincs beállítva, így nem is tudunk belépni vele.
 
-A `sudo` hasonló a Windows rendszerekben használt UAC (User Account Control) megoldáshoz.
+A `sudo` hasonló a Windows rendszerekben használt UAC \(User Account Control\) megoldáshoz.
 
 **Fontos.** Bár a nevük hasonló és bizonyos problémákat mindkettővel meg lehet oldani, a `su` és a `sudo` parancsok teljesen különbözőek.
 
 ## Bash
 
-A Bash nem csak futtatókörnyezetet, hanem egy _szkriptnyelvet_ (script language) is definiál. Az általános célú programozási nyelvekkel (pl. C, C++) szemben a szkriptnyelvek általában a következő jellegzetességekkel rendelkeznek:
+A Bash nem csak futtatókörnyezetet, hanem egy _szkriptnyelvet_ \(script language\) is definiál. Az általános célú programozási nyelvekkel \(pl. C, C++\) szemben a szkriptnyelvek általában a következő jellegzetességekkel rendelkeznek:
 
 * Dinamikus tipizálás: a változók típusát nem definiáljuk előre.
-* Fordító helyett futás közben _értelmező_ (interpreter) futtatja.
+* Fordító helyett futás közben _értelmező_ \(interpreter\) futtatja.
 * Akár soronként is értelmezhető.
 * Minden futási időben értékelődik ki.
 
 ### Alapvető fájlkezelő parancsok
 
-parancs            | jelentés
------------------- | ---------------------------------------------------------
-`pwd`              | _print working directory_: kiírja az aktuális könyvtárat
-`mkdir test`       | _make directory_: `test` könyvtár létrehozása
-`cd test`          | _change directory_: könyvtár váltása
-`touch 01.txt`     | fájl hozzáférési idő módosítása vagy fájl létrehozása
-`echo 02`          | kiírás
-`ls`               | könyvtár tartalmának listázása
-`ls -la`           | részletes lista
-`cp 02.txt 03.txt` | _copy_: másolás
-`mv 02.txt 03.txt` | _move_: mozgatás vagy átnevezés
-`cat 02.txt`       | _concatenate_: fájlok tartalmának összefűzése és kiírása
-`clear`            | képernyő törlése
-`chmod +x my.sh`   | _change mode_: jogosultságok beállítása
+| parancs | jelentés |
+| --- | --- |
+| `pwd` | _print working directory_: kiírja az aktuális könyvtárat |
+| `mkdir test` | _make directory_: `test` könyvtár létrehozása |
+| `cd test` | _change directory_: könyvtár váltása |
+| `touch 01.txt` | fájl hozzáférési idő módosítása vagy fájl létrehozása |
+| `echo 02` | kiírás |
+| `ls` | könyvtár tartalmának listázása |
+| `ls -la` | részletes lista |
+| `cp 02.txt 03.txt` | _copy_: másolás |
+| `mv 02.txt 03.txt` | _move_: mozgatás vagy átnevezés |
+| `cat 02.txt` | _concatenate_: fájlok tartalmának összefűzése és kiírása |
+| `clear` | képernyő törlése |
+| `chmod +x my.sh` | _change mode_: jogosultságok beállítása |
 
 A Windows-zal ellentétben Bash alatt a keresett elérési útvonalban _nem szerepel az aktuális könyvtár_, csak a `PATH` környezeti változó.
 
@@ -94,7 +94,7 @@ CSV fájlok. Egyszerűségük ellenére a CSV állományokat elterjedten alkalma
 
 ### Csővezetékek és szűrők
 
-A Bash támogatja a _csővezetékek és szűrők_ (pipes and filters) architekturális modell alkalmazását. Az egyes alkalmazásokat különböző szűréseket és transzformációkat végeznek, az alkalmazásokat pedig csővezetékek kötik össze. A vezetékeket a `|` (pipe) karakterrel jelöljük. Például a számjegyet tartalmazó fájlneveket az alábbi paranccsal írathatjuk ki:
+A Bash támogatja a _csővezetékek és szűrők_ \(pipes and filters\) architekturális modell alkalmazását. Az egyes alkalmazásokat különböző szűréseket és transzformációkat végeznek, az alkalmazásokat pedig csővezetékek kötik össze. A vezetékeket a `|` \(pipe\) karakterrel jelöljük. Például a számjegyet tartalmazó fájlneveket az alábbi paranccsal írathatjuk ki:
 
 ```bash
 $ ls | grep "[0-9]"
@@ -106,19 +106,19 @@ A `/proc/cpuinfo` fájlban található sorok számát az alábbi paranccsal kaph
 $ cat /proc/cpuinfo | wc -l
 ```
 
-**Tipp:** ha csak egy fájlon végzünk műveletet, akkor általában nincs szükség a `cat` parancsra. A parancs felesleges használatának külön neve is van: _"useless use of `cat`"_. A kapcsolódó hívják. _“The purpose of cat is to concatenate (or ‘catenate’) files. If it's only one file, concatenating it with nothing at all is a waste of time, and costs you a process.”_
+**Tipp:** ha csak egy fájlon végzünk műveletet, akkor általában nincs szükség a `cat` parancsra. A parancs felesleges használatának külön neve is van: _"useless use of _`cat`_"_. A kapcsolódó hívják. _“The purpose of cat is to concatenate \(or ‘catenate’\) files. If it's only one file, concatenating it with nothing at all is a waste of time, and costs you a process.”_
 
 Összetettebb programok elkészítésére nem javasolt a Bash használata. Ökölszabályként az 1000 sornál hosszabb Shell szkriptek kódok karbantartása már közel lehetetlen. Alternatívaként javasolt valamilyen fejlettebb szkriptnyelv, pl. a [Python](https://www.python.org/) vagy a [Perl](https://www.perl.org/) használata.
 
 ### Gyorsbillentyűk
 
-A `↑` és `↓` billentyűk segítségével lépkedjünk a korábbi parancsok között. A konzolkimenetben való navigációra a `Shift`+`Page Up` és `Shift`+`Page Down` billentyűkombinációk használhatók. A korábbi parancsok között a `Ctrl`+`R` megnyomása után lehet keresni (reverse incremental history search mode). Ilyenkor a `Ctrl`+`R` többszöri megnyomásával lehet visszafelé lépkedni a korábbi parancsok között. Ha megtaláltuk, amit keresünk, akkor az `Enter` segítségével végrehajthatjuk, vagy az `Escape` segítségével szerkeszthetjük is. A `Ctrl`+`U` segítésével lehet a parancs kurzor előtti részét kitörölni.
+A `↑` és `↓` billentyűk segítségével lépkedjünk a korábbi parancsok között. A konzolkimenetben való navigációra a `Shift`+`Page Up` és `Shift`+`Page Down` billentyűkombinációk használhatók. A korábbi parancsok között a `Ctrl`+`R` megnyomása után lehet keresni \(reverse incremental history search mode\). Ilyenkor a `Ctrl`+`R` többszöri megnyomásával lehet visszafelé lépkedni a korábbi parancsok között. Ha megtaláltuk, amit keresünk, akkor az `Enter` segítségével végrehajthatjuk, vagy az `Escape` segítségével szerkeszthetjük is. A `Ctrl`+`U` segítésével lehet a parancs kurzor előtti részét kitörölni.
 
 ## Szkriptelés más platformokon
 
 ### Windows szkriptek
 
-Microsoft Windows alatt hagyományosan a batch fájlokat (`.bat`, ritkábban `.cmd`) használták szkriptelésre.
+Microsoft Windows alatt hagyományosan a batch fájlokat \(`.bat`, ritkábban `.cmd`\) használták szkriptelésre.
 
 Egy példa batch fájl:
 
@@ -137,6 +137,7 @@ A PowerShell programozás hangsúlyosan szerepel az Informatikai technológiák 
 
 ## Platformfüggetlen szkriptek
 
-Platformfüggetlen szkriptek készítésére -- néhány alapelv betartásával -- kiválóan használhatók a korábban már említett Python és Perl nyelvek. Valamivel kevésbé elterjedtek erre a célra, de szintén jól alkalmazhatók a Lua és a Ruby nyelvek.
+Platformfüggetlen szkriptek készítésére -- néhány alapelv betartásával -- kiválóan használhatók a korábban már említett Python és Perl nyelvek. Valamivel kevésbé elterjedtek erre a célra, de szintén jól alkalmazhatók a Lua és a Ruby nyelvek. Egy Java-alapú szkriptnyelv a Groovy, amit a Gradle build keretrendszer is használ.
 
 **Érdekesség:** a [Batsh](https://github.com/BYVoid/Batsh) projekt egy olyan programozási nyelvet definiál, ami a batch és a Bash szkriptek funkcióinak metszetét valósítja meg, így a Batsh nyelven készült kódból batch és Bash szkript is generálható.
+
