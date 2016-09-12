@@ -44,7 +44,7 @@ test:
     ./primes
 ```
 
-Mentsük el a fájlt és lépjünk ki a nano-ból: \`Ctrl\`+\`X\`
+Mentsük el a fájlt és lépjünk ki a nano-ból: \`Ctrl\`+\`X\`.
 
 ### Teljesítménymérés
 
@@ -76,7 +76,7 @@ $ diff -u primes-a.c primes-b.c
 
 #### Three-way merge
 
-A három fájlt egyesíthetjük egy az ún. _\[__three-way merge\]__\(_[_http:\/\/en.wikipedia.org\/wiki\/Merge_](http://en.wikipedia.org/wiki/Merge)%28revision_control%29\#Three-way\_merge\)_ művelettel. Parancssorban erre a `diff3` eszközt használjuk.
+A három fájlt egyesíthetjük egy az ún. _\[_**_three-way merge\]_**_\(__[http:\/\/en.wikipedia.org\/wiki\/Merge](http://en.wikipedia.org/wiki/Merge)_%28revision_control%29\#Three-way\_merge\)_ művelettel. Parancssorban erre a `diff3` eszközt használjuk.
 
 ```bash
 $ diff3 --merge primes-a.c primes.c primes-b.c
@@ -112,7 +112,7 @@ Esetünkben a `-l` kapcsolót érdemes használni, így csak a sorok számát fo
 
 Szintén gyakori jellemző a kommentet tartalmazó sorok száma. Az egyszerűség kedvéért most csak az egysoros kommentekkel foglalkozunk.
 
-A kommentezett sorok megtalálásához a `grep` \(_**g**__lobally search a __**r**__egular __**e**__xpression and __**p**__rint_\) eszközt használjuk, amely képes arra, hogy csak az adott reguláris kifejezésre \(_regular expression_\) illeszkedő sztringet tartalmazó sorokat adja vissza.  A reguláris kifejezésekhezhez leírás a [http:\/\/www.regular-expressions.info\/](http://www.regular-expressions.info/), interaktív gyakorlóprogram a [http:\/\/regexone.com\/](http://regexone.com/) weboldalon található.
+A kommentezett sorok megtalálásához a `grep` \(**_g_****_lobally search a _****_r_****_egular _****_e_****_xpression and _****_p_**_\_\_rint_\) eszközt használjuk, amely képes arra, hogy csak az adott reguláris kifejezésre \(_regular expression_\) illeszkedő sztringet tartalmazó sorokat adja vissza.  A reguláris kifejezésekhezhez leírás a [http:\/\/www.regular-expressions.info\/](http://www.regular-expressions.info/), interaktív gyakorlóprogram a [http:\/\/regexone.com\/](http://regexone.com/) weboldalon található.
 
 **Megjegyzés.** A reguláris kifejezésekre több [különböző szabvány](https://en.wikipedia.org/wiki/Regular_expression#Standards) is létezik. Változó, hogy az egyes implementációk melyik szabványt és milyen mértékben valósítják meg, ahogy az alábbi idézet is bizonyítja: _I define UNIX as "30 definitions of regular expressions living under one roof"._ \([Donald Knuth](https://en.wikiquote.org/wiki/Donald_Knuth)\)
 
