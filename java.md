@@ -1,10 +1,6 @@
 # Java
 
-Eclipse
+Eclipse, IntelliJ
 
-Maven\/Gradle
-
-EMF
-
-
+Maven, Gradle
 
