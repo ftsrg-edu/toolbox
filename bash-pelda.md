@@ -1,5 +1,3 @@
-# Esettanulmány
-
 ## Bash szkript futtatása
 
 A prímszámos alkalmazásunkhoz egy kollégánk készített egy Bash szkriptet, ami különböző bemenetekre lefuttatja a programot. Kollégánk nem járatos a Linux alkalmazásában, ezért a szkriptet Windows alatt, MinGW környezetben írta és tesztelte.
